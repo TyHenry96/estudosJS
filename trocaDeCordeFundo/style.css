@@ -1,0 +1,64 @@
+body{
+    margin-top: 150px;
+    display: flex;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+ 
+    line-height: 0px;
+    color:whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* realçando o contorno do texto */
+    font-size: 30px;
+}
+
+.nav-center { /* organização do menu superior */
+    display: flex;
+    flex-direction: grid;
+    gap: 30px;
+}
+
+
+.container { /* área principal onde acontecerá a troca de cores. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(224, 227, 255, 0.897);
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 13px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    2px 2px 13px 0px rgba(50, 50, 50, 0.4);
+    box-shadow:         2px 2px 13px 0px rgba(50, 50, 50, 0.4);
+}
+
+
+
+.menu{
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(224, 227, 255, 0.897);
+    width: 100px;
+    height: 25px;
+    
+}
+
+.menu:hover{
+    opacity: 60%;
+}
+
+.btn {
+	line-height: 20px;
+	height: 25px;
+	text-align: center;
+	width: 150px;
+	cursor: pointer;
+}
+
